@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo Maker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Modern+Antiqua&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="">
+        </div>
+    </header>
+    <section>
+        <div class="banner">
+            <div class="banner-content">
+                <h1>
+                   Design your logo by your own here.
+                </h1>
+                <svg class="arrows">
+                    <path class="a1" d="M0 0 L30 32 L60 0"></path>
+                    <path class="a2" d="M0 20 L30 52 L60 20"></path>
+                    <path class="a3" d="M0 40 L30 72 L60 40"></path>
+                  </svg>
+    
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="logo-maker-section">
+            <div class="container">
+                <div class="text">
+                    <h3>Enter company's here</h3>
+                    <input type="text" placeholder="enter your company name here" id="mytext">
+                </div>
+                <div class="font-size">
+                    <h3>Adjust font size</h3>
+                    <input type="range" min="16" max="150" value="16" id="fontSize">
+                    <p class="f-size">16px</p>
+                </div>
+                <div class="font-style">
+                    <h3>Select font style</h3>
+                    <select name="" id="font-syle">
+                        <option value="select">Select</option>
+                        <option value="scripted" id="scripted">Scripted Font</option>
+                        <option value="Serif" id="serif">Serif Font</option>
+                        <option value="Sans" id="sans">Sans Serif Font</option>
+                    </select>
+                    </div>
+                    <div class="color">
+                        <h3>Select color</h3>
+                        <input type="color" value="#000" id="text-color">
+                    </div>
+                    
+                </div>
+                <div class="text-view">
+                    <p class="designed-logo">   </p>
+                
+                </div>
+                
+           <h2> Try some Other design for your logo</h2>
+  <div class="container">
+      <div class="company-f-name">
+        <h3>Company's First Name</h3>
+        <input type="text" name="" id="first-letter"placeholder="Enter your's company first name...">
+    </div>
+    <div class="company-l-name">
+        <h3>Company's Last Name</h3>
+        <input type="text" name="" id="last-letter"placeholder="Enter your's company last name...">
+        </div>
+        <div class="box-background">
+            <h3>Select box Background</h3>
+            <input type="color" name="" id="box-b-color">
+            </div>
+            <div class="box-font-color">
+                <h3>Select Inner Text color</h3>
+                <input type="color" name="" id="box-f-color">
+                </div>
+                <div class="bottom-text">
+                    <h3>Select Outer Text color</h3>
+                    <input type="color" name="" id="bottom-text-color">
+                    </div>
+
+    </div>
+              <div class="box">
+            <p class="first"></p>
+      
+           <p class="second"></p>
+           
+        </div>
+        <p class="full-name"> <span  class="uniqe-name"></span>&nbsp;<span class="uniqe-last-name"></span></p>
+        <div class="feedback">
+            <form action="" method="get">
+                <textarea name="" id="comment" maxlength="50" placeholder="Give your feedback here..."></textarea>
+                <div class="carec">
+                    <p><span class="min">0</span> / <span class="max">50</span></p>
+                </div>
+            </form>
+        </div>
+ 
+        </div>
+        
+    </section>
+
+    <section>
+        
+       
+    </section>
+
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
